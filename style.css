@@ -1,0 +1,100 @@
+body{
+  background-color: #fff8e7;
+  text-align: center;
+}
+/*img{
+  width: 300px;
+  height: 50%;
+  border-radius: 60%;
+}*/
+.circle{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 0 auto;
+  animation-name: heartFadeInOut;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  background-image: url("images/charlie_portrait_cropped.jpg");
+  background-size: cover;
+}
+.header{
+  background-image: url("images/h1b7337.jpg");
+  background-size: cover;
+
+}
+.socialIcons{
+  padding: 20px;
+}
+.socialIcons img{
+  height: 40px;
+}
+.socialIcons img:hover{
+  border: 0.5px solid white;
+  border-radius: 50%;
+}
+.profilePic{
+  border-radius: 2px;
+  border: 5px solid white;
+  width: 300px;
+}
+main{
+  padding: 20px;
+}
+.assetLinks a{
+  font-size: 15px;
+  font-weight: normal;
+}
+h3{
+  font-size: 25px;
+  font-weight: 200;
+}
+
+
+h1{
+    /*font-family: 'Spectral';*/
+          font-weight: 400;
+          font-size: 50px;
+}
+h2{
+    /*font-family: 'Spectral';*/
+      font-weight: 400;
+}
+
+.portfolioIntroduction{
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: justify;
+  padding: 20px;
+  width: 30em;
+}
+.year-section{
+  margin: 50px auto;
+  color: @color-light;
+  font-size: 1em;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+  a{
+    font-weight: 700;
+  }
+  .year{
+    font-size: 25px;
+  }
+	.big{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: .5em;
+    text-align: center;
+
+	}
+	.aside{
+    font-size: 20px;
+    border-left: 2px solid grey;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-weight: 300;
+	}
+  ul{
+    list-style: circle;
+  }
